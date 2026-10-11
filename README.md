@@ -1,68 +1,180 @@
 <div align="center">
 
-<!-- Custom SVG artwork is stored in assets/ (including a dark-mode variant). -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/header.svg" />
-  <img src="assets/header.svg" width="100%" alt="Sobrat Dayal — developer, AI explorer and lifelong learner" />
-</picture>
+<sub>THE ENGINEERING NOTEBOOK / PROFILE 001</sub>
 
-<br />
+# SOBRAT DAYAL
 
-<a href="https://github.com/Sobrat-dayal?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/EXPLORE_PROJECTS-0d1117?style=flat-square&logo=github&logoColor=24d9d3&labelColor=0d1117" /></a>
-<a href="https://github.com/Sobrat-dayal?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Sobrat-dayal?style=flat-square&label=FOLLOWERS&color=14b8a6&labelColor=0d1117&logo=github&logoColor=ffffff" /></a>
-<a href="https://github.com/Sobrat-dayal/athena-career-studio"><img alt="Athena Career Studio" src="https://img.shields.io/badge/FEATURED_APP-ATHENA-0d1117?style=flat-square&logo=react&logoColor=24d9d3&labelColor=0d1117" /></a>
+**SOFTWARE ENGINEERING** &nbsp; / &nbsp; **APPLIED AI** &nbsp; / &nbsp; **PRODUCT SYSTEMS**
 
-<br />
-<br />
+Building practical software at the intersection of intelligent systems, considered design, and everyday problems.
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2900&pause=1300&color=18BDBA&center=true&vCenter=true&width=700&height=40&lines=Software+Engineering+%7C+Artificial+Intelligence;Exploring+research%2C+building+useful+tools;Learning+by+creating%2C+one+project+at+a+time" alt="Animated introduction: software engineering, AI, research and building" />
+**Make it useful. Make it understandable. Make it last.**
+
+[Selected work](#selected-work) · [Technical practice](#technical-practice) · [Exploration](#areas-of-exploration) · [Connect](#connect)
+
+<sub>BASED IN INDIA &nbsp; · &nbsp; BUILDING AND LEARNING IN PUBLIC</sub>
 
 </div>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/><img src="assets/s01.svg" width="100%" alt="01 — Who am I"/></picture>
+---
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/><img src="assets/whoami.svg" width="100%" alt="About Sobrat: developer based in India, interested in software, AI and research"/></picture>
+### `01 / SYSTEM PROFILE`
 
-I'm **Sobrat Dayal**, a developer interested in building practical products at the intersection of **software engineering, artificial intelligence, and research**. I enjoy turning ideas into usable applications, exploring new technologies, and refining projects through experimentation.
+## A little context, in terminal form
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/><img src="assets/s03.svg" width="100%" alt="02 — Featured Projects"/></picture>
+```text
+sobrat@github:~$ whoami
+name         Sobrat Dayal
+focus        Software engineering / applied AI / product development
+approach     Research -> prototype -> test -> refine
+location     India
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/projects.svg"/><img src="assets/projects.svg" width="100%" alt="Featured projects: Athena Career Studio, Research Notebook V2, Polyglot"/></picture>
+sobrat@github:~$ ls ~/selected-work
+athena-career-studio/   research-notebook-v2/   Polyglot/
 
-| Project | What it does | Explore |
-| :--- | :--- | :---: |
-| **Athena Career Studio** | Resume editing, job application tracking, and interview preparation. | [Repository ↗](https://github.com/Sobrat-dayal/athena-career-studio) · [Live app ↗](https://athena-career-studio.vercel.app/) |
-| **Research Notebook V2** | A research workspace for source-grounded AI summaries, papers, notes, and editable presentations. | [Repository ↗](https://github.com/Sobrat-dayal/research-notebook-v2) |
-| **Polyglot** | AI-assisted code translation across programming languages. | [Repository ↗](https://github.com/Sobrat-dayal/Polyglot) |
+sobrat@github:~$ git status --short
+# Always something worth improving.
+```
 
-<p align="right"><a href="https://github.com/Sobrat-dayal?tab=repositories">View all public repositories ↗</a></p>
+*This is a static, terminal-inspired introduction, not a live shell.*
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s04.svg"/><img src="assets/s04.svg" width="100%" alt="03 — My workflow"/></picture>
+### `02 / ABOUT`
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/telemetry.svg"/><img src="assets/telemetry.svg" width="100%" alt="Workflow: explore, design, build, iterate"/></picture>
+## Engineering with a purpose
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s05.svg"/><img src="assets/s05.svg" width="100%" alt="04 — The Route"/></picture>
+I'm interested in what happens when **sound engineering**, **intelligent software**, and **thoughtful product design** meet. I enjoy turning scattered workflows into coherent tools, exploring how AI can assist without obscuring the user's control, and working through the details that make software dependable.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline.svg"/><img src="assets/timeline.svg" width="100%" alt="Learning and development roadmap"/></picture>
+My public projects span career planning, research workflows, and code translation. Different problems; a common goal: **reduce friction without reducing clarity**.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s06.svg"/><img src="assets/s06.svg" width="100%" alt="05 — Technology Stack"/></picture>
+---
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/><img src="assets/stack.svg" width="100%" alt="Technologies used in my projects"/></picture>
+### `03 / SELECTED WORK`
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s07.svg"/><img src="assets/s07.svg" width="100%" alt="06 — GitHub Activity"/></picture>
+## Projects, not placeholders
+
+#### **01. [Athena Career Studio](https://github.com/Sobrat-dayal/athena-career-studio)**
+
+**A more organized way to manage a job search.**
+
+A workspace for structured resumes, tailored applications, interview preparation, and tracking what was submitted. Built to replace disconnected documents and spreadsheets with a clearer process.
+
+`React` · `TypeScript` · `Tailwind CSS` · `Express`
+
+[Source code ↗](https://github.com/Sobrat-dayal/athena-career-studio) &nbsp; / &nbsp; [Live application ↗](https://athena-career-studio.vercel.app/)
+
+---
+
+#### **02. [Research Notebook V2](https://github.com/Sobrat-dayal/research-notebook-v2)**
+
+**Research that keeps the source in view.**
+
+A workspace for bringing together papers, source-grounded AI summaries, notes, questions, and editable presentations. Designed around the problem of organizing evidence without losing the context behind it.
+
+`TypeScript` · `Gemini` · `Cloudflare Workers` · `D1` · `R2`
+
+[Source code ↗](https://github.com/Sobrat-dayal/research-notebook-v2) &nbsp; / &nbsp; [Live application ↗](https://research-notebook-v2-sobrat.sobratdayal2008.chatgpt.site)
+
+---
+
+#### **03. [Polyglot](https://github.com/Sobrat-dayal/Polyglot)**
+
+**A code-translation project for crossing language boundaries.**
+
+Explores AI-assisted translation between programming languages while aiming to preserve meaning and program logic. A tool concept for learning, prototyping, and navigating unfamiliar stacks.
+
+`Next.js` · `Python` · `Flask` · `Gemini`
+
+[Explore repository ↗](https://github.com/Sobrat-dayal/Polyglot)
+
+---
+
+### `04 / TECHNICAL PRACTICE`
+
+## The tools behind the work
+
+The following technologies are represented in my published project documentation.
+
+| Discipline | Technologies |
+| :--- | :--- |
+| **Languages** | `TypeScript` · `JavaScript` · `Python` |
+| **Interface engineering** | `React` · `Next.js` · `Vite` · `Tailwind CSS` |
+| **Services & APIs** | `Node.js` · `Express` · `Flask` · `Cloudflare Workers` |
+| **Applied AI** | `Google Gemini API` · AI-assisted research and writing workflows |
+| **Data & infrastructure** | `Cloudflare D1` · `R2` · `Firebase` integrations |
+| **Delivery & tooling** | `Git` · `GitHub` · `Vercel` |
+
+<details>
+<summary><b>How I like to work</b> &nbsp; ↳ expand notes</summary>
+
+I prefer software that can be **explained, tested, and maintained**. That means deliberate architecture, clear interfaces, explicit limitations, and human review where automated systems could get things wrong.
+
+</details>
+
+---
+
+### `05 / AREAS OF EXPLORATION`
+
+## Questions worth investigating
+
+| Direction | What interests me |
+| :--- | :--- |
+| **Agentic AI** | How multiple agents can collaborate with clear boundaries, observability, and oversight. |
+| **LLMs & multimodal systems** | How models can work with different kinds of information while staying grounded. |
+| **Cloud & distributed systems** | How to design services that remain reliable as their complexity grows. |
+| **Security & automation** | How to automate useful work without weakening safety or control. |
+| **Open-source engineering** | How transparent tools and collaborative development improve software over time. |
+
+*These are areas of exploration, not claims of specialist credentials.*
+
+---
+
+### `06 / PUBLIC ACTIVITY`
+
+## Follow the work, not a counter
+
+No manufactured streaks or static numbers pretending to update themselves. My public repositories and their commit histories are the record.
+
+| Explore | Open |
+| :--- | :--- |
+| Complete repository directory | [github.com/Sobrat-dayal?tab=repositories](https://github.com/Sobrat-dayal?tab=repositories) |
+| Public GitHub profile | [github.com/Sobrat-dayal](https://github.com/Sobrat-dayal) |
+| Athena's development history | [Commits ↗](https://github.com/Sobrat-dayal/athena-career-studio/commits/main/) |
+| Research Notebook V2 history | [Commits ↗](https://github.com/Sobrat-dayal/research-notebook-v2/commits/main/) |
+
+---
+
+### `07 / CURRENT FOCUS`
+
+## The work ahead
+
+```text
+BUILD     Interfaces and workflows that make AI-assisted tools genuinely useful
+LEARN     Stronger software architecture, cloud engineering, and security
+EXPLORE   Multi-agent systems, LLMs, and dependable automation
+VALUE     Clear reasoning, careful implementation, and honest limitations
+OPEN TO   Technical collaboration and thoughtful open-source discussions
+```
+
+The projects above reflect my public work; the subjects here reflect the directions I want to keep exploring.
+
+---
+
+### `08 / CONNECT`
+
+## Good ideas are better discussed
+
+**[GitHub profile](https://github.com/Sobrat-dayal)** &nbsp; · &nbsp; **[Repositories](https://github.com/Sobrat-dayal?tab=repositories)** &nbsp; · &nbsp; **[Project feedback](https://github.com/Sobrat-dayal/athena-career-studio/issues)**
+
+Have a thoughtful suggestion, a technical question, or an idea for collaboration? GitHub is the best place to reach me through my public work.
+
+---
 
 <div align="center">
 
-<!-- Live images from community services; actual values come from GitHub and are not hardcoded. -->
-<a href="https://github.com/Sobrat-dayal"><img width="49%" alt="Sobrat's live GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=Sobrat-dayal&show_icons=true&hide_border=true&bg_color=0d1117&title_color=24d9d3&text_color=bdc8d6&icon_color=24d9d3&include_all_commits=true" /></a>
-<a href="https://github.com/Sobrat-dayal?tab=repositories"><img width="49%" alt="Most used languages in public repositories" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sobrat-dayal&layout=compact&hide_border=true&bg_color=0d1117&title_color=24d9d3&text_color=bdc8d6&langs_count=8" /></a>
+<sub>END OF PROFILE / CONTINUE BUILDING</sub>
 
-<img width="98%" alt="GitHub activity chart" src="https://github-readme-activity-graph.vercel.app/graph?username=Sobrat-dayal&bg_color=0d1117&color=24d9d3&line=3bcbbd&point=ffffff&area=true&hide_border=true" />
+**The interface makes a promise. The implementation has to keep it.**
 
-<sub>Statistics are generated from public GitHub data by third-party services. Their images can occasionally be unavailable.</sub>
-
-<br /><br />
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"/><img src="assets/footer.svg" width="100%" alt="Build. Experiment. Improve. Thanks for visiting."/></picture>
+<sub>© SOBRAT DAYAL &nbsp; · &nbsp; [RETURN TO TOP](#sobrat-dayal)</sub>
 
 </div>
