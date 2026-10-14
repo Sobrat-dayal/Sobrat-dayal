@@ -1,180 +1,235 @@
+<!--
+  SOBRAT DAYAL / PROFILE README
+  Single-file GitHub profile. No images, remote badges, CSS, scripts, or additional assets.
+  Sections and links are editable directly in this file.
+-->
+
 <div align="center">
 
-<sub>THE ENGINEERING NOTEBOOK / PROFILE 001</sub>
+<sub>THE ENGINEERING INDEX &nbsp; / &nbsp; PROFILE 001</sub>
 
 # SOBRAT DAYAL
 
-**SOFTWARE ENGINEERING** &nbsp; / &nbsp; **APPLIED AI** &nbsp; / &nbsp; **PRODUCT SYSTEMS**
+### Software is the medium. Better systems are the point.
 
-Building practical software at the intersection of intelligent systems, considered design, and everyday problems.
+**SOFTWARE ENGINEERING** &nbsp; · &nbsp; **APPLIED ARTIFICIAL INTELLIGENCE** &nbsp; · &nbsp; **PRODUCT DESIGN**
 
-**Make it useful. Make it understandable. Make it last.**
+I turn complex ideas into thoughtful interfaces, intelligent workflows, and software people can actually use.
 
-[Selected work](#selected-work) · [Technical practice](#technical-practice) · [Exploration](#areas-of-exploration) · [Connect](#connect)
+<kbd>BUILD</kbd> &nbsp; <kbd>QUESTION</kbd> &nbsp; <kbd>ITERATE</kbd> &nbsp; <kbd>IMPROVE</kbd>
 
-<sub>BASED IN INDIA &nbsp; · &nbsp; BUILDING AND LEARNING IN PUBLIC</sub>
+[Selected work](#selected-work) &nbsp; / &nbsp; [The lab](#the-lab) &nbsp; / &nbsp; [Toolbox](#toolbox) &nbsp; / &nbsp; [Engineering notes](#engineering-notes) &nbsp; / &nbsp; [Connect](#connect)
+
+<sub>INDIA &nbsp; / &nbsp; SOFTWARE × INTELLIGENCE × SYSTEMS</sub>
 
 </div>
 
 ---
 
-### `01 / SYSTEM PROFILE`
+<sub>00 &nbsp; / &nbsp; SYSTEM INTRODUCTION</sub>
 
-## A little context, in terminal form
+## A developer's operating system
 
 ```text
-sobrat@github:~$ whoami
-name         Sobrat Dayal
-focus        Software engineering / applied AI / product development
-approach     Research -> prototype -> test -> refine
-location     India
+sobrat@github ~ % whoami
+  NAME       Sobrat Dayal
+  PRACTICE   Software engineering + applied AI
+  INTEREST   Intelligent products and dependable systems
+  PROCESS    Research -> Prototype -> Test -> Refine
+  LOCATION   India
 
-sobrat@github:~$ ls ~/selected-work
-athena-career-studio/   research-notebook-v2/   Polyglot/
-
-sobrat@github:~$ git status --short
-# Always something worth improving.
+sobrat@github ~ % cat ./principles.txt
+  Build for the person using it.
+  Understand the system behind the interface.
+  Keep the human in control.
 ```
 
-*This is a static, terminal-inspired introduction, not a live shell.*
+I care about **how software works** and **how it feels to use**. My interests span product engineering, large language models, multi-agent automation, research tooling, and the infrastructure behind reliable applications.
 
-### `02 / ABOUT`
-
-## Engineering with a purpose
-
-I'm interested in what happens when **sound engineering**, **intelligent software**, and **thoughtful product design** meet. I enjoy turning scattered workflows into coherent tools, exploring how AI can assist without obscuring the user's control, and working through the details that make software dependable.
-
-My public projects span career planning, research workflows, and code translation. Different problems; a common goal: **reduce friction without reducing clarity**.
+The recurring theme is simple: take a difficult workflow, understand its moving parts, and make it **clearer, faster, and more useful** without hiding the trade-offs.
 
 ---
 
-### `03 / SELECTED WORK`
+<sub>01 &nbsp; / &nbsp; BUILT AND PUBLISHED</sub>
 
-## Projects, not placeholders
+## Selected work
 
-#### **01. [Athena Career Studio](https://github.com/Sobrat-dayal/athena-career-studio)**
+<sub>PUBLIC REPOSITORIES &nbsp; · &nbsp; REAL CODE &nbsp; · &nbsp; OPEN DEVELOPMENT HISTORY</sub>
 
-**A more organized way to manage a job search.**
+### 01. [Athena Career Studio](https://github.com/Sobrat-dayal/athena-career-studio)
 
-A workspace for structured resumes, tailored applications, interview preparation, and tracking what was submitted. Built to replace disconnected documents and spreadsheets with a clearer process.
+**A calmer, more organized way to navigate a job search.**
 
-`React` · `TypeScript` · `Tailwind CSS` · `Express`
+An application workspace for resumes, tailored applications, interview preparation, and progress tracking. It aims to replace scattered documents and tabs with a more connected career workflow.
 
-[Source code ↗](https://github.com/Sobrat-dayal/athena-career-studio) &nbsp; / &nbsp; [Live application ↗](https://athena-career-studio.vercel.app/)
+`React` &nbsp; `TypeScript` &nbsp; `Tailwind CSS` &nbsp; `Express`
 
----
-
-#### **02. [Research Notebook V2](https://github.com/Sobrat-dayal/research-notebook-v2)**
-
-**Research that keeps the source in view.**
-
-A workspace for bringing together papers, source-grounded AI summaries, notes, questions, and editable presentations. Designed around the problem of organizing evidence without losing the context behind it.
-
-`TypeScript` · `Gemini` · `Cloudflare Workers` · `D1` · `R2`
-
-[Source code ↗](https://github.com/Sobrat-dayal/research-notebook-v2) &nbsp; / &nbsp; [Live application ↗](https://research-notebook-v2-sobrat.sobratdayal2008.chatgpt.site)
+[Explore source ↗](https://github.com/Sobrat-dayal/athena-career-studio) &nbsp; · &nbsp; [Development history ↗](https://github.com/Sobrat-dayal/athena-career-studio/commits/main/)
 
 ---
 
-#### **03. [Polyglot](https://github.com/Sobrat-dayal/Polyglot)**
+### 02. [Research Notebook V2](https://github.com/Sobrat-dayal/research-notebook-v2)
 
-**A code-translation project for crossing language boundaries.**
+**Keep the research organized. Keep the evidence in view.**
 
-Explores AI-assisted translation between programming languages while aiming to preserve meaning and program logic. A tool concept for learning, prototyping, and navigating unfamiliar stacks.
+A research workspace that brings papers, source-grounded AI summaries, notes, questions, and editable presentations into one workflow. Designed around the difference between *producing an answer* and *understanding its sources*.
 
-`Next.js` · `Python` · `Flask` · `Gemini`
+`TypeScript` &nbsp; `Gemini API` &nbsp; `Cloudflare Workers` &nbsp; `D1` &nbsp; `R2`
 
-[Explore repository ↗](https://github.com/Sobrat-dayal/Polyglot)
+[Explore source ↗](https://github.com/Sobrat-dayal/research-notebook-v2) &nbsp; · &nbsp; [Development history ↗](https://github.com/Sobrat-dayal/research-notebook-v2/commits/main/)
 
 ---
 
-### `04 / TECHNICAL PRACTICE`
+### 03. [Polyglot](https://github.com/Sobrat-dayal/Polyglot)
 
-## The tools behind the work
+**Helping ideas survive the jump between programming languages.**
 
-The following technologies are represented in my published project documentation.
+An exploration of AI-assisted source-code translation, with an emphasis on preserving program intent and making cross-language development and learning less cumbersome.
 
-| Discipline | Technologies |
+`Next.js` &nbsp; `Python` &nbsp; `Flask` &nbsp; `Gemini API`
+
+[Explore source ↗](https://github.com/Sobrat-dayal/Polyglot) &nbsp; · &nbsp; [Development history ↗](https://github.com/Sobrat-dayal/Polyglot/commits/master/)
+
+---
+
+<sub>02 &nbsp; / &nbsp; WORK IN PROGRESS</sub>
+
+## The lab
+
+The next set of ideas explores what happens when **AI, interfaces, automation, and physical computing** are designed as complete systems. These are development and exploration tracks; they are **not presented as finished public releases**.
+
+| PROJECT / DOMAIN | DESIGN QUESTION |
+| :--- | :--- |
+| **ATLAS**  <br><sub>MARKETS · INTELLIGENCE</sub> | What would a coherent research-and-markets workspace look like with integrated analytics, mapping, and configurable AI agents? |
+| **PETER**  <br><sub>PERSONAL AI · AUTOMATION</sub> | How can a long-running personal assistant combine voice, tools, memory, and approval gates without sacrificing user control? |
+| **STRUCTURA**  <br><sub>EDUCATION · INTERACTIVE SYSTEMS</sub> | Can learning data structures and algorithms feel like exploring a carefully designed game world? |
+| **SERA**  <br><sub>HUMAN-CENTERED AI · ROBOTICS</sub> | How might an emotionally responsive companion bot use on-device processing and natural interaction while respecting privacy? |
+
+<sub>THESE DESCRIBE PROJECT DIRECTIONS, NOT CLAIMS ABOUT RELEASE STATUS OR RESULTS.</sub>
+
+---
+
+<sub>03 &nbsp; / &nbsp; TECHNOLOGIES AND PRACTICE</sub>
+
+## Toolbox
+
+Not an exhaustive list of logos. Just the tools and platforms reflected in my published projects, organized by the work they help do.
+
+| DOMAIN | TECHNOLOGIES |
 | :--- | :--- |
 | **Languages** | `TypeScript` · `JavaScript` · `Python` |
 | **Interface engineering** | `React` · `Next.js` · `Vite` · `Tailwind CSS` |
-| **Services & APIs** | `Node.js` · `Express` · `Flask` · `Cloudflare Workers` |
-| **Applied AI** | `Google Gemini API` · AI-assisted research and writing workflows |
-| **Data & infrastructure** | `Cloudflare D1` · `R2` · `Firebase` integrations |
-| **Delivery & tooling** | `Git` · `GitHub` · `Vercel` |
+| **APIs and services** | `Node.js` · `Express` · `Flask` · `Cloudflare Workers` |
+| **AI integration** | `Gemini API` · source-grounded research workflows |
+| **Data and storage** | `Cloudflare D1` · `R2` · `Firebase` integrations |
+| **Development and delivery** | `Git` · `GitHub` · `Vercel` |
 
 <details>
-<summary><b>How I like to work</b> &nbsp; ↳ expand notes</summary>
+<summary><b>Beyond the current stack</b> &nbsp; / &nbsp; areas I am exploring</summary>
 
-I prefer software that can be **explained, tested, and maintained**. That means deliberate architecture, clear interfaces, explicit limitations, and human review where automated systems could get things wrong.
+<br>
+
+`Agent orchestration` &nbsp; `Multimodal systems` &nbsp; `RAG and retrieval` &nbsp; `Cloud infrastructure` &nbsp; `Security engineering` &nbsp; `Distributed systems` &nbsp; `Local-first AI`
+
+These are **interests and ongoing learning directions**, not a claim of professional mastery of every technology listed.
 
 </details>
 
 ---
 
-### `05 / AREAS OF EXPLORATION`
+<sub>04 &nbsp; / &nbsp; ENGINEERING NOTES</sub>
 
-## Questions worth investigating
-
-| Direction | What interests me |
-| :--- | :--- |
-| **Agentic AI** | How multiple agents can collaborate with clear boundaries, observability, and oversight. |
-| **LLMs & multimodal systems** | How models can work with different kinds of information while staying grounded. |
-| **Cloud & distributed systems** | How to design services that remain reliable as their complexity grows. |
-| **Security & automation** | How to automate useful work without weakening safety or control. |
-| **Open-source engineering** | How transparent tools and collaborative development improve software over time. |
-
-*These are areas of exploration, not claims of specialist credentials.*
-
----
-
-### `06 / PUBLIC ACTIVITY`
-
-## Follow the work, not a counter
-
-No manufactured streaks or static numbers pretending to update themselves. My public repositories and their commit histories are the record.
-
-| Explore | Open |
-| :--- | :--- |
-| Complete repository directory | [github.com/Sobrat-dayal?tab=repositories](https://github.com/Sobrat-dayal?tab=repositories) |
-| Public GitHub profile | [github.com/Sobrat-dayal](https://github.com/Sobrat-dayal) |
-| Athena's development history | [Commits ↗](https://github.com/Sobrat-dayal/athena-career-studio/commits/main/) |
-| Research Notebook V2 history | [Commits ↗](https://github.com/Sobrat-dayal/research-notebook-v2/commits/main/) |
-
----
-
-### `07 / CURRENT FOCUS`
-
-## The work ahead
+## Engineering notes
 
 ```text
-BUILD     Interfaces and workflows that make AI-assisted tools genuinely useful
-LEARN     Stronger software architecture, cloud engineering, and security
-EXPLORE   Multi-agent systems, LLMs, and dependable automation
-VALUE     Clear reasoning, careful implementation, and honest limitations
-OPEN TO   Technical collaboration and thoughtful open-source discussions
+                         IDEA
+                          |
+                   DEFINE THE PROBLEM
+                          |
+                    MAP THE SYSTEM
+                          |
+                BUILD THE SMALLEST PROOF
+                          |
+                      TEST REALITY
+                          |
+                     REFINE + SHIP
+                          |
+                         LEARN
+                          |
+                       ITERATE
 ```
 
-The projects above reflect my public work; the subjects here reflect the directions I want to keep exploring.
+| WHAT I OPTIMIZE FOR | WHAT THAT MEANS IN PRACTICE |
+| :--- | :--- |
+| **Clarity** | Explainable behavior, readable code, intentional interfaces. |
+| **Usefulness** | Features shaped by real tasks instead of fashionable demos. |
+| **Reliability** | Clear failure modes, testing, and operational visibility. |
+| **Human agency** | AI systems that assist decisions without disguising uncertainty or removing oversight. |
+
+<details>
+<summary><b>Research radar</b> &nbsp; / &nbsp; questions I keep returning to</summary>
+
+- How should long-running AI agents manage memory, permissions, and accountability?
+- How can multimodal interfaces feel natural without becoming intrusive?
+- What makes a research assistant transparent about its sources?
+- How can good product design make technically powerful software feel simple?
+
+</details>
 
 ---
 
-### `08 / CONNECT`
+<sub>05 &nbsp; / &nbsp; PUBLIC ENGINEERING RECORD</sub>
 
-## Good ideas are better discussed
+## GitHub activity
 
-**[GitHub profile](https://github.com/Sobrat-dayal)** &nbsp; · &nbsp; **[Repositories](https://github.com/Sobrat-dayal?tab=repositories)** &nbsp; · &nbsp; **[Project feedback](https://github.com/Sobrat-dayal/athena-career-studio/issues)**
+A useful engineering profile should point to work that can be inspected, not numbers that might be stale or made up. For contributions, commits, and repository activity, **the live GitHub record is the source of truth**.
 
-Have a thoughtful suggestion, a technical question, or an idea for collaboration? GitHub is the best place to reach me through my public work.
+| DIRECTORY | OPEN |
+| :--- | :--- |
+| Repository index | [Browse all repositories ↗](https://github.com/Sobrat-dayal?tab=repositories) |
+| Contribution history | [View profile activity ↗](https://github.com/Sobrat-dayal) |
+| Athena development | [Read commits ↗](https://github.com/Sobrat-dayal/athena-career-studio/commits/main/) |
+| Research Notebook development | [Read commits ↗](https://github.com/Sobrat-dayal/research-notebook-v2/commits/main/) |
+| Polyglot development | [Read commits ↗](https://github.com/Sobrat-dayal/Polyglot/commits/master/) |
+
+*The native GitHub contribution calendar also appears further down on the profile, outside this README.*
+
+---
+
+<sub>06 &nbsp; / &nbsp; CURRENT DIRECTION</sub>
+
+## What I'm working toward
+
+```text
+BUILD       Better tools for knowledge work and software workflows
+STUDY       Architecture, agentic AI, cloud systems, security
+EXPLORE     Research interfaces, automation, interactive learning
+COLLABORATE Practical products, thoughtful tooling, open source
+PRIORITIZE  Clear decisions over unnecessary complexity
+```
+
+---
+
+<sub>07 &nbsp; / &nbsp; MAKE CONTACT</sub>
+
+## Connect
+
+If something here sparked a technical question, a collaboration idea, or a project suggestion, the best starting point is the work itself.
+
+<div align="center">
+
+**[GITHUB](https://github.com/Sobrat-dayal)** &nbsp; · &nbsp; **[REPOSITORIES](https://github.com/Sobrat-dayal?tab=repositories)** &nbsp; · &nbsp; **[OPEN A PROJECT ISSUE](https://github.com/Sobrat-dayal/athena-career-studio/issues)**
+
+</div>
 
 ---
 
 <div align="center">
 
-<sub>END OF PROFILE / CONTINUE BUILDING</sub>
+<sub>SOBRAT DAYAL &nbsp; / &nbsp; ENGINEERING INDEX 001</sub>
 
-**The interface makes a promise. The implementation has to keep it.**
+**Build deliberately. Test assumptions. Leave things better than you found them.**
 
-<sub>© SOBRAT DAYAL &nbsp; · &nbsp; [RETURN TO TOP](#sobrat-dayal)</sub>
+<sub>[BACK TO TOP ↑](#sobrat-dayal) &nbsp; · &nbsp; END OF FILE / WORK CONTINUES</sub>
 
 </div>
