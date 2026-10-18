@@ -1,0 +1,37 @@
+# Adapted from Pratham1603-main/.github/workflows/profile-3d.yml (MIT).
+name: Update 3D contribution skyline
+on:
+  schedule:
+    - cron: '47 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Generate Sobrat's 3D contribution graphics
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          USERNAME: Sobrat-Dayal
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Show all public repository languages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/enrich_languages.py
+      - name: Save generated graphics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh 3D contribution skyline"
+            git push
+          fi
