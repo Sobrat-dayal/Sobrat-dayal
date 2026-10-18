@@ -17,9 +17,7 @@
 
 I'm Sobrat Dayal.
 
-- **Career tools:** resumes, applications, and interview preparation in one workspace.
-- **Research tools:** paper imports, AI-assisted summaries, cited chat, and presentation exports.
-- **On this profile:** a selection of my repositories and a snapshot of my public GitHub activity.
+
 
 ## Connect
 
