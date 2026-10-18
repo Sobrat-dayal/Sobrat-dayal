@@ -83,9 +83,6 @@ Explore another of my public TypeScript repositories.
   </a>
 </p>
 
-Each building represents a day of GitHub contributions. Taller buildings mean more activity. The language chart shows every language detected across my public, non-fork repositories, weighted by source bytes. The radar chart summarizes contribution types.
-
-These are snapshots from GitHub, refreshed daily when both included workflows are enabled. Repository statistics above include forks; their star total counts only non-fork public repositories. The skyline uses the 3D generator's own aggregation, which can differ from the repository statistics. Contributions are activity signals, not a measure of code quality.
 
 ---
 
