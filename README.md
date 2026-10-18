@@ -15,7 +15,7 @@
 
 ## About
 
-I'm Sobrat Dayal. My public projects include a career workspace and a research notebook, with TypeScript at the center of both.
+I'm Sobrat Dayal.
 
 - **Career tools:** resumes, applications, and interview preparation in one workspace.
 - **Research tools:** paper imports, AI-assisted summaries, cited chat, and presentation exports.
