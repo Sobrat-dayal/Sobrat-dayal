@@ -1,6 +1,6 @@
 <!-- Profile repository: Sobrat-Dayal/Sobrat-Dayal. See SETUP.md before uploading. -->
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Sobrat Dayal — Ideas into useful software. Build, learn, iterate." />
+  <img src="assets/veni-vidi-vici-developer-banner.png" width="100%" alt="Sobrat Dayal — AI &amp; ML Engineer | Software Developer. Veni. Vidi. Vici." />
 </p>
 
 <h1 align="center">Hi, I'm Sobrat 👋</h1>
