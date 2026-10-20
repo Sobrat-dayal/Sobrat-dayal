@@ -1,0 +1,37 @@
+name: Update contribution snake
+on:
+  schedule:
+    - cron: '23 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/snake.yml]
+permissions:
+  contents: write
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate contribution snake in light and dark themes
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg?color_snake=%238b5cf6
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23a855f7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save generated animation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-contribution-grid-snake*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh contribution snake"
+            git push
+          fi

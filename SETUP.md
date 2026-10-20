@@ -47,3 +47,7 @@ The generator also creates alternate palettes on its first run. To select a diff
 The initial image was generated using the existing signed-in GitHub CLI session; no token is included in this package. The scheduled repository token may have a narrower data view. Only enable private contribution visibility if you intend those aggregate counts to appear on your public profile. The language panel is replaced by scripts/enrich_languages.py: it lists every language returned by GitHub's languages API for public non-fork repositories, weighted by source bytes. This measures repository contents, not proficiency or commit activity.
 
 The old flat calendar is retained in assets as an optional alternative. `Refresh profile visuals` still updates it and the repository statistics; `Update 3D contribution skyline` updates the buildings. No workflow has been published or run remotely by this task.
+
+## Contribution snake and expanded stack (October 2026)
+
+The Tech stack section now uses grouped Skill Icons and Shields.io badges requested from the reference screenshots; these images require those services. The contribution snake uses local generated assets and automatically refreshes twice daily through `.github/workflows/snake.yml`. Run **Update contribution snake** from Actions to refresh manually. It shares the existing profile-visuals concurrency group. The generator uses GitHub contribution levels (not an exact ascending daily commit sort). The existing skyline remains available below it.
