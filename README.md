@@ -13,9 +13,16 @@
   <a href="#connect">Connect</a>
 </p>
 
-## About
-
+### About Me
 I'm Sobrat Dayal.
+
+I'm a **Software Engineer and AI/ML Developer** with a strong focus on building intelligent systems, scalable software architectures, and high-performance applications. My work spans **Artificial Intelligence, Deep Learning, Generative AI, LLMs, Autonomous Agents, Systems Programming, and Full-Stack Engineering**.
+
+I specialize in translating complex technical challenges into efficient, maintainable, and production-oriented solutions, with particular interests in **multi-agent orchestration, local AI inference, model optimization, developer tooling, and intelligent automation**.
+
+My projects explore the intersection of software engineering and applied research, ranging from **AI-powered development environments and autonomous systems to robotics and advanced learning platforms**.
+
+I'm driven by engineering fundamentals, rigorous problem-solving, and a research-oriented mindset. I value clean architecture, computational efficiency, open-source collaboration, and building systems that are technically ambitious, practically useful, and designed to scale.
 
 
 
