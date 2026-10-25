@@ -23,6 +23,10 @@ I'm Sobrat Dayal.
 
 <p>
   <a href="https://github.com/Sobrat-Dayal"><img src="assets/github.svg" width="150" height="44" alt="Visit Sobrat Dayal on GitHub" /></a>
+  <a href="https://www.instagram.com/sobratdayal2022/"><img src="assets/github.svg" width="150" height="44" alt="Visit Sobrat Dayal on Instagrm" /></a>
+  <a href="https://www.linkedin.com/in/sobrat-dayal"><img src="assets/github.svg" width="150" height="44" alt="Visit Sobrat Dayal on LinkedIn" /></a>
+  <a href="https://www.reddit.com/u/Sobrat_Dayal"><img src="assets/github.svg" width="150" height="44" alt="Visit Sobrat Dayal on Reddit" /></a>
+  <a href="https://x.com/sobrat_dayal"><img src="assets/github.svg" width="150" height="44" alt="Visit Sobrat Dayal on X" /></a>
 </p>
 
 [Browse my repositories](https://github.com/Sobrat-Dayal?tab=repositories) · [See my public activity](https://github.com/Sobrat-Dayal?tab=overview)
