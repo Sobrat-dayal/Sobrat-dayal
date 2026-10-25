@@ -27,7 +27,7 @@ I'm Sobrat Dayal.
 
 [Browse my repositories](https://github.com/Sobrat-Dayal?tab=repositories) · [See my public activity](https://github.com/Sobrat-Dayal?tab=overview)
 
-<!-- Add verified LinkedIn, portfolio, or email links here. None were available in the public GitHub profile when this package was created. -->
+[Instagram](https://www.instagram.com/sobratdayal2022/) · [X (Twitter)](https://x.com/sobrat_dayal) · [LinkedIn](https://www.linkedin.com/in/sobrat-dayal) · [Reddit](https://www.reddit.com/u/Sobrat_Dayal/s/z16RtlnGF9)
 
 ## Tech stack
 
