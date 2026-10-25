@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="46" viewBox="0 0 152 46" role="img" aria-labelledby="title desc">
+<title id="title">X (Twitter) link button</title>
+<desc id="desc">Scalable dark navy social-link badge with a luminous border, X (Twitter) icon, and label.</desc>
+<defs>
+  <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10192B"/><stop offset="0.6" stop-color="#0E1626"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0F4FF"/><stop offset="0.36" stop-color="#94ABDB"/><stop offset="0.64" stop-color="#B1C5F2"/><stop offset="1" stop-color="#E7F2FF"/></linearGradient>
+  <linearGradient id="labelFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9D1FF"/><stop offset="1" stop-color="#B4B7F5"/></linearGradient>
+  <filter id="halo" x="-15%" y="-40%" width="130%" height="180%"><feGaussianBlur stdDeviation="1.5"/></filter>
+</defs>
+<!-- Soft glowing perimeter, fully rendered from vectors -->
+<rect x="2.1" y="2.1" width="147.8" height="41.8" rx="7.2" fill="none" stroke="#9CC1FA" stroke-width="1.75" opacity="0.36" filter="url(#halo)"/>
+<rect x="2.6" y="2.6" width="146.8" height="40.8" rx="7.1" fill="url(#surface)" stroke="url(#rim)" stroke-width="1.12"/>
+<path d="M11.2 4.1 H140" stroke="#B5D2FF" stroke-opacity="0.32" stroke-width="0.5"/>
+<g transform="translate(12.4 11.3) scale(0.95)"><path fill="#E5EBFF" fill-rule="evenodd" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.64 7.584H.474l8.599-9.827L0 1.154h7.594l5.243 6.932zm-1.29 19.491h2.039L6.486 3.24H4.298z"/></g>
+<text x="42.1" y="27.3" fill="url(#labelFill)" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.0" font-weight="650" letter-spacing="-0.12">X (Twitter)</text>
+</svg>

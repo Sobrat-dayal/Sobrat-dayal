@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="46" viewBox="0 0 152 46" role="img" aria-labelledby="title desc">
+<title id="title">Reddit link button</title>
+<desc id="desc">Scalable dark navy social-link badge with a luminous border, Reddit icon, and label.</desc>
+<defs>
+  <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10192B"/><stop offset="0.6" stop-color="#0E1626"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0F4FF"/><stop offset="0.36" stop-color="#94ABDB"/><stop offset="0.64" stop-color="#B1C5F2"/><stop offset="1" stop-color="#E7F2FF"/></linearGradient>
+  <linearGradient id="labelFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9D1FF"/><stop offset="1" stop-color="#B4B7F5"/></linearGradient>
+  <filter id="halo" x="-15%" y="-40%" width="130%" height="180%"><feGaussianBlur stdDeviation="1.5"/></filter>
+</defs>
+<!-- Soft glowing perimeter, fully rendered from vectors -->
+<rect x="2.1" y="2.1" width="147.8" height="41.8" rx="7.2" fill="none" stroke="#9CC1FA" stroke-width="1.75" opacity="0.36" filter="url(#halo)"/>
+<rect x="2.6" y="2.6" width="146.8" height="40.8" rx="7.1" fill="url(#surface)" stroke="url(#rim)" stroke-width="1.12"/>
+<path d="M11.2 4.1 H140" stroke="#B5D2FF" stroke-opacity="0.32" stroke-width="0.5"/>
+<g transform="translate(12.3 10.7)">
+<!-- Reddit's recognizable Snoo silhouette is constructed with editable vector shapes. -->
+<path d="M12 4.2 14 0.7 18.5 1.5" stroke="#FF632F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="19.1" cy="1.8" r="2.1" fill="#FF632F"/>
+<circle cx="19.1" cy="1.8" r="0.85" fill="#F9FAFD"/>
+<ellipse cx="12" cy="14.3" rx="9.5" ry="8.2" fill="#FF592E"/>
+<circle cx="2.5" cy="11.1" r="3.4" fill="#FF592E"/>
+<circle cx="21.5" cy="11.1" r="3.4" fill="#FF592E"/>
+<ellipse cx="12" cy="14.3" rx="7.15" ry="5.95" fill="#FBFCFF"/>
+<circle cx="9" cy="13" r="1.4" fill="#FF592E"/>
+<circle cx="15" cy="13" r="1.4" fill="#FF592E"/>
+<path d="M9.1 17 Q12 19.6 14.9 17" fill="none" stroke="#FF592E" stroke-width="1.2" stroke-linecap="round"/>
+</g>
+<text x="42.1" y="27.3" fill="url(#labelFill)" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="650" letter-spacing="-0.12">Reddit</text>
+</svg>
